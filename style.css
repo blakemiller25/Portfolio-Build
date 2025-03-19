@@ -18,7 +18,7 @@ header {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
     background-color: #00264d;
@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
@@ -47,8 +47,8 @@ nav ul li a:hover {
 section {
     max-width: 90%;
     width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 20px auto 30px auto; /* Added bottom margin */
+    padding: 25px; /* Increased padding */
     background: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -57,6 +57,16 @@ section {
 
 h1, h2 {
     color: #004080;
+    margin-bottom: 15px; /* Added space below headings */
+}
+
+p {
+    margin-bottom: 15px; /* Added space between paragraphs */
+    line-height: 1.6; /* Improved readability */
+}
+
+ul li {
+    margin-bottom: 10px; /* Added space between list items */
 }
 
 footer {
